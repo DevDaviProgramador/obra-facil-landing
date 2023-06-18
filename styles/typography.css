@@ -1,0 +1,36 @@
+/* Geral */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,400&display=swap');
+* { font-family: "Open Sans", "Sans-Serif" }
+
+
+/* Titulos */
+
+h2 { 
+    color: black;
+    font-size: 26px;
+    font-weight: normal;
+    Line-height: 34px;
+    margin: 0;
+    padding: 30px 20px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: gray;
+    line-height: 150%;
+}
+
+.notes {
+    font-size: 12px;
+    color: gray;
+    padding: 5px;
+}
+
+/* Área de Formulário */
+
+form input, form button {
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: 400;
+}
+

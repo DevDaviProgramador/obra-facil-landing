@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Estilos de cabeçalho.
+ */
+
+header {
+    background-color: white;
+    border-bottom: 3px solid #ddd;
+    padding: 25px 10%;
+    display: flex;
+}
+
+div.logo {
+    width: 50%;
+}
+
+div.social {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#siga-conectado {
+    color: gray;
+    font-size: 14px;
+    margin-right: 25px;
+    margin-top: 10px;
+    float: right;
+}
+
+header .social a {
+    height: 32px;
+    width: 32px;
+    float: right;
+    margin-left: 5px;
+}
+
+header .youtube_button {
+    background-image: url(../images/social_media_icons/yt.png);
+}
+
+header .twitter_button {
+    background-image: url(../images/social_media_icons/twitter.png);
+}
+
+header .facebook_button {
+    background-image: url(../images/social_media_icons/facebook.png);
+}
+
+header .youtube_button:hover {
+    background-image: url(../images/social_media_icons/youtube-hover.png);
+}
+
+header .twitter_button:hover {
+    background-image: url(../images/social_media_icons/twitter-hover.png);
+}
+
+header .facebook_button:hover {
+    background-image: url(../images/social_media_icons/facebook-hover.png);
+}
+
+/* 
+* Conteúdo Principal
+*/
+
+div.content {
+    display: flex;
+    padding: 50px 10%;
+    background: #f5f5f5;
+    justify-content: center;
+}
+
+.content div {
+    margin-top: 30px;
+}
+
+.video-area {
+    max-width: 520px;
+    margin-right: 10px;
+}
+
+.video-area iframe {
+    width: 100%;
+}
+
+/* 
+* Área de Formulário
+*/
+
+div.form-area {
+    background-color: white;
+    padding: 15px;
+    margin-left: 10px;
+    width: 400px;
+}
+
+input {
+    background-color: #eee;
+    padding: 6px 15px;
+    border-radius: 3px;
+    border: solid 1px darkgray;
+    height: 48px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+button#submit-button {
+    background: #5d9a68;
+    border-radius: 3px;
+    border: solid 1px white;
+    color: white;
+    height: 48px;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px;
+}
+
+form, div.form-header, .notes { margin: 20px } 
+ #message {font-size: 15px; color: red; font-style: italic;}
+
+/* 
+* Rodapé
+*/
+footer {
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: gray;
+}
